@@ -1,0 +1,10 @@
+header {
+  background: maroon url(http://www.signedbyauthor.com/wp-content/uploads/2015/07/ToKillAMockingbird-480x270.jpg) center left no-repeat;
+  padding: 20px;
+  max-width: 300px;
+  color: white;
+  margin: 0 auto;
+}
+h2 {
+  border-bottom: black solid 2px;
+}
