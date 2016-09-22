@@ -17,6 +17,9 @@ function getEmployee (employee) {
   var bonus = employee[2] * percent;
   bonusArray[2] = parseInt(employee[2]) + bonus;
   bonusArray[3] = parseInt(bonus);
+  document.write('<h2>' + bonusArray[0] + '</h2>' + '<ul><li>Bonus Percentage: ' +
+    bonusArray[1] + '</li><li>Adjusted Annual Compensation: $' + bonusArray[2].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") +
+    '</li><li> Total Bonus: $' + bonusArray[3].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",") + '</li></ul>')
   return bonusArray;
 }
 
